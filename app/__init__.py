@@ -12,7 +12,7 @@ socketio = SocketIO(app, async_mode='gevent')
 
 def create_app():
     app = Flask(__name__)
-    app.config['SECRET_KEY'] = 'secret'
+    app.config['SECRET_KEY'] = ''
     from .routes import bp
     app.register_blueprint(bp)
     socketio.init_app(app)
