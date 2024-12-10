@@ -1,0 +1,8 @@
+Flask==3.0.0
+pytest==7.4.0
+Flask==3.0.0
+Flask-SocketIO==5.3.4
+eventlet==0.33.3
+python-socketio~=5.11.4
+gevent~=24.11.1
+openai~=0.28.0
